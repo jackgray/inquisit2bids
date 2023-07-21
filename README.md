@@ -6,7 +6,7 @@ The scripts in this folder aim to rename, organize, and generate metrics on comp
 
 # Step 1:
 ### rename.py 
-`Converts raw inquisit data into bids structure and labels the files with a date, then converts those dates into session numbers. Attempts to extrapolate gaps in dates to accurately express gaps in sessions for missed days`
+`Converts raw inquisit data into bids structure and labels the files with a date, then converts those dates into session numbers. Attempts to extrapolate gaps in dates so that missed days are accurately represented in session number labels.`
 
 # Step 2:
 ### audit.sh
